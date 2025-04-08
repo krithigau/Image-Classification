@@ -6,11 +6,12 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-Include the Problem Statement and Dataset.
+![image](https://github.com/user-attachments/assets/dec2e8ae-8232-482b-b030-a5185cf51738)
+
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![image](https://github.com/user-attachments/assets/2254dcdc-73bc-4bd4-8567-fe7bdc9e91bd)
 
 ## DESIGN STEPS
 
@@ -97,8 +98,8 @@ def train_model(model, train_loader, num_epochs=3):
         optimizer.step()
         running_loss += loss.item()
 
-        print('Name: Priyangha G')
-        print('Register Number: 212223040157')
+        print('Name:KRITHIGA U')
+        print('Register Number: 212223240076')
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 ```
 
